@@ -24,7 +24,7 @@ export default defineComponent({
     Avatar
   },
   setup() {
-    const msg = ref('测试信息1231')
+    const msg = ref('based vite create vue project')
     // 响应式解构
     const { age, name } = storeToRefs(useStore())
     // 响应式获取窗口尺寸
